@@ -1,0 +1,115 @@
+*,
+::before,
+::after {
+margin: 0;
+padding: o;
+}
+body {
+    box-sizing: border-box;
+    background: #edecec;
+}
+.nav-area {
+    display: flex;
+    flex-direction: row;
+    gap: 220px;
+}
+.nav-bar {
+    height: 720px;
+    width: 200px;
+    background-color: #fff;
+   position: fixed;
+   z-index: 1;
+    border: 1px solid gray;
+}
+.update-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 1000px;
+    width: 1000px;
+    background-color: transparent;
+    margin: auto;
+    box-sizing: border-box;
+}
+.updatediv1 {
+    width: 470px;
+    height: 1000px;
+    margin-left: 150px;
+}
+.updatediv2 {
+    width: 400px;
+    height: 500px;
+    border: 1px solid gray;
+    margin: 20px 0 20px 50px;
+}
+.stories {
+    width: 470px;
+    height: 120px;
+    background-color: #fff;
+    margin: 20px 0;
+    border: 1px solid gray;
+    border-radius: 8px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.stories img {
+    width: 60%;
+    border-radius: 200px;
+    border: 2px solid gray;
+   margin: 20px 0 0 15px;
+}
+figcaption {
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 5px;
+}
+.first-update {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.second-update {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.third-update {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.fourth-update {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.profile-area {
+    width: 470px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+}
+.profile-area img {
+    width: 10%;
+    border-radius: 200px;
+}
+.picture-area {
+    width: 470px;
+    height: 587.5px;
+    background-color: red;
+}
+.caption-area {
+    width: 470px;
+    height: 200px;
+    background-color: #fff;
+}
