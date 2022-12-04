@@ -22,15 +22,34 @@ body {
    z-index: 1;
     border: 1px solid gray;
 }
-.material-symbols-outlined {
-    font-variation-settings:
-    'FILL' 0,
-    'wght' 500,
-    'GRAD' 200,
-    'opsz' 48;
-    font-size: 2.5rem;
-    color: black;
+.ig-logo {
+    width: 50%;
+    margin: 30px 20px 40px 35px;
 }
+
+/* NAVBAR ICONS */
+/* ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+} */
+.nav-list li {
+    list-style-type: none;
+}
+.nav-list img {
+    width: 15%;
+}
+.nav-items {
+   margin-bottom: 50px;
+}
+.nav-list a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    line-height: 4;
+  
+}
+
 .update-section {
     display: flex;
     flex-direction: row;
@@ -139,19 +158,46 @@ figcaption {
     width: 470px;
     height: 200px;
     background-color: #fff;
+    box-sizing: border-box;
+}
+.caption-area-likes {
+    margin-top: 50px;
 }
 .caption-area-p {
     margin-top: 20px;
     font-size: 0.9rem;
     line-height: 1.3;
-    padding-left: 10px;
 }
 .caption-area a {
     color: black;
     font-weight: 550;
     text-decoration: none;
     font-size: 0.9rem;
-  
+    padding: 0 0 10px 10px;
+}
+.caption-area-span, .caption-area-date {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.caption-area-comment {
+    opacity: 0.5;
+    padding-top: 10px;
+}
+.input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.input input {
+    padding: 20px;
+    border: none;
+}
+.input a {
+    text-decoration: none;
+    color: blue;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 20px;
 }
 
 /* RIGHT HAND DIV */
